@@ -64,7 +64,7 @@
 		817C00AA1B5EDF8B0018D8DE /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		817C00AC1B5EDF930018D8DE /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 		817C00AE1B5EDFA10018D8DE /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
-		817C00B11B5EDFFA0018D8DE /* WorkWithParse-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WorkWithParse-Bridging-Header.h"; sourceTree = "<group>"; };
+		817C00B11B5EDFFA0018D8DE /* WorkWithParse-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WorkWithParse-Bridging-Header.h"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,10 +102,8 @@
 			isa = PBXGroup;
 			children = (
 				817C00701B5EDDE50018D8DE /* WorkWithParse */,
-				817C00B01B5EDFB00018D8DE /* Frameworks */,
 				817C00891B5EDDE50018D8DE /* WorkWithParseTests */,
 				817C006F1B5EDDE50018D8DE /* Products */,
-				817C00B11B5EDFFA0018D8DE /* WorkWithParse-Bridging-Header.h */,
 			);
 			sourceTree = "<group>";
 		};
@@ -124,10 +122,12 @@
 				817C00731B5EDDE50018D8DE /* AppDelegate.swift */,
 				817C00781B5EDDE50018D8DE /* ViewController.swift */,
 				817C007A1B5EDDE50018D8DE /* Main.storyboard */,
+				817C00B11B5EDFFA0018D8DE /* WorkWithParse-Bridging-Header.h */,
 				817C007D1B5EDDE50018D8DE /* Images.xcassets */,
 				817C007F1B5EDDE50018D8DE /* LaunchScreen.xib */,
 				817C00751B5EDDE50018D8DE /* WorkWithParse.xcdatamodeld */,
 				817C00711B5EDDE50018D8DE /* Supporting Files */,
+				817C00B01B5EDFB00018D8DE /* Frameworks */,
 			);
 			path = WorkWithParse;
 			sourceTree = "<group>";
@@ -175,6 +175,7 @@
 				817C009A1B5EDF450018D8DE /* AudioToolbox.framework */,
 			);
 			name = Frameworks;
+			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
